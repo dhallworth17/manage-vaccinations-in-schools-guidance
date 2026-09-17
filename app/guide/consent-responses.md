@@ -1,14 +1,14 @@
 ---
 title: Checking consent responses
 theme: Managing consent
-order: 13
+order: 25
 ---
 
 [[toc]]
 
 ## Reviewing consent details for children in a session
 
-You can review consent details for all children in a session. 
+You can review consent details for all children in a session.
 
 First, find the session you’re interested in:
 
@@ -20,23 +20,27 @@ On the **Overview** tab you can see how many children in the session have the st
 
 The **Action required** section includes links to any children with:
 
-- unmatched consent responses 
+- unmatched consent responses
 - no consent response
 - follow-up requests
 - conflicting consent
 
-On the **Children in session** tab, you can see the consent status of all children in the session. 
+On the **Children in session** tab, each child’s summary card shows **Needs consent** or **Has a refusal** in their programme status where relevant.
 
+![Screenshot of consent responses for a session.](/assets/images/session-patients.png 'Mavis shows consent responses for a session grouped by status.')
 
-![Screenshot of consent responses for a session.](/assets/images/session-no-consent-response.png 'Mavis shows consent responses for a session grouped by status.')
+> [!NOTE]
+> A child only has a status of **Due vaccination** if they have consent to be vaccinated.
 
-You can also use the **Programme status** filters to show only children matching your selection - for example, select **Needs consent** and **No contact details** to see only those children. 
+You can use the **Programme status** filters to show only children matching your selection - for example, select **Needs consent** and **No contact details** to see only those children.
 
-If you want to see more details about consent for a child, select their name to open their record. 
+If the only reason given for consent refusal is "Do not want vaccination at school", the child is eligible to be invited to a clinic.
 
-###Flu and MMR(V) vaccine preferences
+If you want to see more details about consent for a child, select their name to open their record.
 
-For flu and MMR(V) vaccinations, Mavis shows you which vaccines the child has consent for. 
+### Flu and MMR(V) vaccine preferences
+
+For flu and MMR(V) vaccinations, Mavis shows you which vaccines the child has consent for.
 
 For flu, this will be one of the following:
 
@@ -49,12 +53,14 @@ For MMR or MMV, it will be one of the following:
 - No preference
 - Gelatine-free vaccine only
 
-
 ## Reviewing unmatched consent responses
 
 You can review unmatched consent responses across your whole cohort or for a specific session.
 
-To see unmatched responses for the whole cohort, select **Unmatched responses** on the top navigation.
+To see unmatched responses for the whole cohort:
+
+1. Select **Review** in the main navigation.
+2. Select the **Unmatched consent responses** tab.
 
 To see unmatched responses for an individual session:
 
@@ -62,7 +68,7 @@ To see unmatched responses for an individual session:
 2. Find the session you’re interested in and select it.
 3. If there are any unmatched responses, this will be flagged in the **Action required** section of the **Overview** tab. Select the link to display them.
 
-![Screenshot of a list of unmatched consent responses.](/assets/images/consent-unmatched.png 'Mavis helps you review unmatched consent responses.')
+![Screenshot of a list of unmatched consent responses.](/assets/images/session-unmatched-consent-responses.png 'Mavis helps you review unmatched consent responses.')
 
 ### Matching responses
 
@@ -72,7 +78,7 @@ Once you’ve displayed the unmatched responses, try to match each child listed 
 2. You’ll be prompted to search for a child record that matches the child’s name. You can search by name or date of birth.
 3. If you think you’ve found a match, select the child's name. This will display details from the consent response next to details from the existing child record.
 
-   ![Screenshot of a potential match for an unmatched consent response.](/assets/images/consent-link.png 'Mavis makes it easy to compare a consent response with a child record.')
+   ![Screenshot of a potential match for an unmatched consent response.](/assets/images/session-unmatched-consent-link.png 'Mavis makes it easy to compare a consent response with a child record.')
 
 4. If you believe it's a match, click **Link response with record**.
 
@@ -102,10 +108,20 @@ In both cases, you will need to investigate the conflicting consent and resolve 
 If a consent response has different contact details from those on record, Mavis will automatically:
 
 - record the consent decision
-- add an additional parent to the child record with the new contact details
+- add an additional contact to the child record with the new contact details
 - contact the original parent to make sure the response came from somebody with parental authority
 
 If the original parent informs you that the consent response came from somebody without parental responsibility, you need to:
 
 - mark the consent response as invalid (see [Marking a consent response as invalid](add-or-remove-consent.md))
-- remove the parent who sent the invalid response from the child record ([see Manually editing individual child records](editing-cohorts.md))
+- remove the contact who sent the invalid response (see [Editing and removing contacts](/guide/editing-cohorts.md#editing-and-removing-contacts)
+
+## Resolving incorrect contact details in consent response
+
+If you find out that a parent entered incorrect phone or email details in a consent response by mistake, you need to:
+
+- mark the consent response as invalid - see [Marking a consent response as invalid](/guide/add-or-remove-consent/#marking-a-consent-response-as-invalid)
+- contact the parent and record a new consent response with the parent's consent decision and the correct contact details - see [Recording a new consent response](/guide/add-or-remove-consent/#recording-a-new-consent-response)
+
+> [!NOTE]
+> You must invalidate the original consent response before recording a new one. Otherwise, future messages about the child's vaccination could be sent to the wrong person.

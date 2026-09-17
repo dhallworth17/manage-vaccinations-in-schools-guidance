@@ -1,11 +1,13 @@
 ---
-title: Adding and editing sessions
+title: Adding and editing school sessions
 theme: Organising sessions
-order: 11
+order: 20
 eleventyComputed:
   eleventyNavigation:
-    key: Adding and editing sessions
+    key: Adding and editing school sessions
 ---
+
+[[toc]]
 
 You can create sessions in Mavis for any of the programmes you’re running. You can edit the session details later, if you need to.
 
@@ -31,13 +33,15 @@ You can also create sessions through the Sessions area of Mavis.
 3. Find the school you want to create a session for and select **Continue**.
 4. Select the programmes and year groups for the session. Enter the session date (if known), then confirm the session details.
 
-Mavis will automatically send consent requests and reminders from 3 weeks before the scheduled session date. You can change these dates by editing the session (see below).
+Mavis will automatically send consent requests and reminders (where consent is not already in place) from 3 weeks before the scheduled session date. You can change these dates by editing the session (see below).
+
+If a child leaves a school before the end of the academic year, they won’t appear in any further sessions at that school.
 
 ### Session dates
 
 You can add more than one date for a session. If you do that, parents will get consent requests showing all dates.
 
-If you leave the date fields blank, this will create an unscheduled session which you can add dates to later. 
+If you leave the date fields blank, this will create an unscheduled session which you can add dates to later.
 
 ## Editing sessions
 

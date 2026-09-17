@@ -1,7 +1,7 @@
 ---
 title: Recording a vaccination (or non-vaccination)
 theme: Recording vaccinations
-order: 25
+order: 48
 eleventyComputed:
   eleventyNavigation:
     key: Recording a vaccination
@@ -22,42 +22,41 @@ The **Record vaccinations** tab only shows children who have consent to be vacci
 > [!NOTE]
 > If you’re offering more than one vaccination programme at this session, make sure you select the relevant programme tab, near the top of the screen.
 
-![Screenshot of programme tabs on the patient session page.](/assets/images/session-programme-tabs.png)
+![Screenshot of programme tabs on the patient session page.](/assets/images/patient-session-status.png)
 
 ## Review the child’s details and do pre-screening checks
 
 Once you’ve reviewed the information on the page, you’ll need to confirm the child’s identity and carry out pre-screening checks.
 
-1. Select the relevant radio button to state whether the child or someone else confirmed their identity.
+1. Select whether the child or someone else confirmed their identity.
 2. If it was someone else, enter their name and relationship to the child.
 3. Run through the pre-screening checks and confirm you’ve checked the statements are correct. You can add notes if you want to.
-4. Indicate whether you think the child is ready to vaccinate using the radio buttons at the bottom of the page.
+4. If you think the child is ready to vaccinate, select **Yes**.
+5. Select the vaccination method and **Continue**.
 
-![Screenshot of pre-screening questions on a patient record.](/assets/images/session-child-pre-screen.png 'Mavis will ask a series of pre-screening questions before you record a vaccination.')
+![Screenshot of pre-screening questions on a patient record.](/assets/images/patient-session-record-vaccination.png 'Mavis will ask a series of pre-screening questions before you record a vaccination.')
 
 ## Record the outcome
 
 If the child was vaccinated:
 
-1. Use the relevant radio buttons to record how the vaccination was given.
-2. Record the batch you used, then click **Continue**.
-3. On the **Check and confirm** page, check the vaccination details and make any changes you need to.
-4. Add notes if needed, then click **Confirm**.
+1. Record the batch you used, then **Continue**.
+2. Check your answers and make any changes you need to.
+3. Add vaccination notes if needed, then **Confirm**.
 
-> [!NOTE]
-> **Td/IPV dose number**
-Mavis automatically records Td/IPV vaccinations as the 5th dose. If this is not correct, select **Change**, update the dose number (from 1st to 6th dose), then select **Confirm** to save your changes.
+> [!NOTE] Td/IPV dose number
+> Mavis automatically records Td/IPV vaccinations as the 5th dose. If this is not correct, select **Change**, update the dose number (from 1st to 6th dose), then select **Confirm** to save your changes.
 
 If the child was not vaccinated:
 
-1. Use the relevant radio button to record why the vaccine was not given, then **Continue**.
+1. Select the reason why the vaccine was not given, then **Continue**.
 2. Check and confirm your answer, and add notes if you want to.
-3. Make any changes (if necessary) and click **Confirm**.
+3. Make any changes (if necessary) and **Confirm**.
 
 ## Keeping track of your vaccinations
 
 You can see how many vaccinations you’ve given today by selecting **Your vaccinations today** near the top of the Record vaccinations tab.
 
-![Screenshot of tally of vaccinations given by the user today.](/assets/images/record-vaccinations-tab-with-tally.png)
+![Screenshot of tally of vaccinations given by the user today.](/assets/images/session-record-vaccinations.png)
 
 You can see how many vaccinations have been given by the team as a whole in the **Session overview** tab. (See [Keeping track of sessions](keeping-track-of-sessions.md))

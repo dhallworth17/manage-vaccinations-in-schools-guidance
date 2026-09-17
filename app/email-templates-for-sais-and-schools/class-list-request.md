@@ -9,6 +9,8 @@ We need to know which pupils are eligible for vaccination in your school so we c
 
 The pupil information is usually kept in a school information management system (IMS) such as Arbor, Bromcom or SIMS.
 
+The information we need includes parent contact details. 'Parent' means someone who has parental responsibility or delegated authority to consent to vaccinations.
+
 You need to send us the information in spreadsheet columns for every child:
 
 - First name
@@ -20,8 +22,8 @@ You need to send us the information in spreadsheet columns for every child:
 - Parent 1 email
 - Parent 1 phone number
 - Parent 2 name
-- Parent 1 email
-- Parent 1 phone number
+- Parent 2 email
+- Parent 2 phone number
 
 You can also see these columns in the template attached.
 

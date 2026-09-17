@@ -1,7 +1,7 @@
 ---
 title: Archiving vaccination records
 theme: Recording vaccinations
-order: 31
+order: 54
 eleventyComputed:
   eleventyNavigation:
     key: Archiving vaccination records
@@ -21,7 +21,3 @@ To archive a record:
 6. Confirm by clicking **Yes, archive this vaccination record**
 
 If you do not have activity code **B0062** you can ask a superuser in your group to archive the record.
-
-![Screenshot of archive vaccination record link.](/assets/images/archive-vaccination-record-link.png)
-
-![Screenshot of archive vaccination record confirmation.](/assets/images/archive-vaccination-record-confirmation.png)

@@ -1,17 +1,19 @@
 ---
 title: Sharing consent forms with schools who have not provided contact details
 theme: Managing consent
-order: 17
+order: 29
 eleventyComputed:
   eleventyNavigation:
     key: Sharing consent forms with schools
 ---
 
-If schools have not provided parents’ contact details, they’ll need to send out consent requests and consent reminders that you’ve provided them with. See [emails and text messages Mavis sends to parents](../email-and-text-templates/index.md).
+If schools have not provided parents’ contact details, they’ll need to send out consent requests and consent reminders that you’ve provided them with.
 
-## How to use the templates
+You can use the following email templates:
 
-You will need to add the correct dates and a URL for the consent form yourselves. **This URL is different for every school.**
+- [Initial consent request for flu](../email-templates-for-sais-and-schools/consent-request-for-flu.md)
+- [Initial consent request for HPV](../email-templates-for-sais-and-schools/consent-request-for-hpv.md)
+- [Initial consent request for MenACWY and TD/IPV](../email-templates-for-sais-and-schools/consent-request-for-menacwy-and-td-ipv.md)
 
 You’ll also need to let the schools know when they should send the different messages.
 

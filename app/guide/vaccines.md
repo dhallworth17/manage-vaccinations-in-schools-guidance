@@ -1,7 +1,7 @@
 ---
 title: Adding vaccines
 theme: Recording vaccinations
-order: 21
+order: 45
 ---
 
 ![Screenshot of vaccines page.](/assets/images/vaccines.png)
@@ -10,7 +10,11 @@ To add a vaccine batch:
 
 1. From the dashboard, go to **Vaccines**.
 2. Find the relevant vaccine type and select **Add a new batch**.
-3. Enter the batch ID and expiry date, then click on **Add batch**.
+3. Enter the batch ID and expiry date, then select **Add batch**.
+
+## Vaccine details
+
+Select the name of a vaccine to see further details, including the manufacturer, the relevant health questions and side effects.
 
 ## Archiving batches
 

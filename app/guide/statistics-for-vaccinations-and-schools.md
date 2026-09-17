@@ -1,17 +1,16 @@
 ---
 title: Viewing consent and vaccination data
 theme: Statistics and reports
-order: 33
+order: 80
 ---
 
 [[toc]]
 
-The **Reports** area of Mavis lets you:
+The **Reports** area of Mavis lets you view consent and vaccination data for children, schools and local authorities in your area.
 
-- view consent and vaccination data for children, schools and local authorities in your area
-- download vaccination reports to share with CHIS, GP practices or others
+You can view data for the current academic year or a previous academic year.
 
-To get there, select **Reports** from the Mavis homepage or the top navigation bar.
+To get there, select **Reports** from the Mavis homepage or the top navigation.
 
 ## Vaccinations dashboard
 
@@ -21,14 +20,17 @@ You can see:
 
 - the total number of children in the cohort
 - how many children have been vaccinated for each programme (by any provider)
-- how many vaccinations your team gave each month
+- how many children have been vaccinated by your team
+- how many children have been vaccinated elsewhere (for example, at a GP practice or by another SAIS team)
+- how many vaccinations your team gave each month in schools and community clinics
+- how many children were vaccinated before the selected academic year (this does not apply to flu)
 
 You can use filters to view data for specific programmes, genders and year groups.
 
 > [!NOTE]
 > We define **cohort** as all children who are eligible for the vaccine according to their academic year group, whether or not they have already been vaccinated.
 
-![Screenshot of the vaccinations dashboard.](/assets/images/reports-vaccinations.png)
+![Screenshot of a vaccinations report.](/assets/images/reports-vaccinations.png)
 
 ## Consent dashboard
 
@@ -48,9 +50,13 @@ In addition, the ‘no consent recorded’ figure is broken down to show the num
 - consent refused
 - conflicting consent
 
+The ‘consent refused’ figure is broken down, to show the reasons for refusal as a percentage of total refusals.
+
+You can also see the different methods of response (for example, website, paper, phone) as a percentage of total responses.
+
 You can use filters to view data for specific vaccine programmes, genders and year groups.
 
-![Screenshot of the consent dashboard](/assets/images/reports-consent.png)
+![Screenshot of a consent report](/assets/images/reports-consent.png)
 
 ## View data for schools in your area
 
@@ -68,7 +74,7 @@ For each school, you can see the number of children:
 
 You can use filters to view data for specific programmes, genders and year groups.
 
-![Screenshot of data for a list of schools.](/assets/images/reports-schools-list.png)
+![Screenshot of a schools report.](/assets/images/reports-schools.png)
 
 Schools are listed in ascending order by unique reference number (URN).
 
@@ -90,6 +96,6 @@ For each local authority, you can see the number of children:
 
 You can use filters to view data for specific programmes, genders and year groups.
 
-![Screenshot of the local authorities dashboard.](/assets/images/reports-local-authorities.png)
+![Screenshot of a local authorities report.](/assets/images/reports-local-authorities.png)
 
 This data is also available to download as a CSV report (see [Downloading vaccination reports](reporting.md)).
